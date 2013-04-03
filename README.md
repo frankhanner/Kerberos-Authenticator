@@ -1,5 +1,7 @@
 ## Java Active Directory Authentication using Kerberos or LDAP
 
+### NOTE: Source and Examples coming in the next few days!!
+
 ### Overview
 A few months ago I was tasked with a project that required authentication 
 against an Active Directory (AD). When first developing this application
@@ -13,5 +15,3 @@ a Kerberos approach
 In this repository, you will find two directories with each apporoach I used.
 The main goal is to allow others to see what I did and also see if there are 
 any ways it could infact be imporved.
-
-Over the coming days, I will be updating this repository heavily.

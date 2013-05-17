@@ -1,5 +1,3 @@
-package baestartstop;
-
 import javax.security.auth.callback.*;
 
 /**

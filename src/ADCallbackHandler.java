@@ -1,10 +1,10 @@
 import javax.security.auth.callback.*;
 
 /**
- * ADCallbackHandler is used in conjunction with VaderADAuthenticator. It
+ * ADCallbackHandler is used in conjunction with ADAuthenticator. It
  * creates a new callback handler to be used with the login context by setting
  * the username and password accordingly. This information is then used to
- * authenticate against the Active Directory via VaderADAuthenticator.
+ * authenticate against the Active Directory via ADAuthenticator.
  *
  * @author Frank Hanner
  * @version 1.0.0.4

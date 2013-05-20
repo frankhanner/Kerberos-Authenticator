@@ -15,3 +15,9 @@ a Kerberos approach
 In this repository, you will find two directories with each apporoach I used.
 The main goal is to allow others to see what I did and also see if there are 
 any ways it could infact be imporved.
+
+###Usage
+```java
+ADAuthenticator auth = new ADAuthenticator(String jaasConf, String realm, String kdc);
+auth.validateUser(String userName, String password);
+```

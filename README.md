@@ -16,6 +16,10 @@ In this repository, you will find two directories with each apporoach I used.
 The main goal is to allow others to see what I did and also see if there are 
 any ways it could infact be imporved.
 
+NOTE: You will need to create a JAAS configuration file and place it in the
+classpath. To find out more about this config file please visit
+http://www.javaactivedirectory.com/?page_id=72
+
 ###Usage
 ```java
 ADAuthenticator auth = new ADAuthenticator(String jaasConf, String realm, String kdc);

@@ -2,23 +2,22 @@ import javax.security.auth.login.LoginContext;
 import javax.security.auth.login.LoginException;
 
 /**
- * ADAuthenticator is used to authenticate the user against the Active
+ * ADAuthenticator is used to authenticate a user against an Active
  * Directory using Kerberos.
  *
  * @author Frank Hanner
- * @version 1.0.0.4
- * @since 1.6
  */
 public class ADAuthenticator {
 
     private String jaasConf, realm, kdc, debug;
 
     /**
-     * ADAuthenticator constructor configures the class to connect to
-     * either the air or gnd domain depending on computer name
+     * Constructs a new ADAuthenticator object by setting the appropriate System
+     * properties.
      *
-     * @param compName computer that is being used to authenticate. This
-     * determines what domain to use.
+     * @param jaasConf path of jaas configuration file
+     * @param realm the realm of the AD
+     * @param kdc the kdc of the AD
      */
     public ADAuthenticator(String jaasConf, String realm, String kdc) {
         debug = "false";
@@ -29,7 +28,7 @@ public class ADAuthenticator {
     }
 
     /**
-     * validateUser accepts userName and password and attempts to authenticate against Active Directory
+     * Attempts to authenticate against the Active Directory
      *
      * @return true if user authenticates successfully. false if user
      * doesn't authenticate successfully.

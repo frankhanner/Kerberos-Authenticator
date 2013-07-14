@@ -7,8 +7,6 @@ import javax.security.auth.callback.*;
  * authenticate against the Active Directory via ADAuthenticator.
  *
  * @author Frank Hanner
- * @version 1.0.0.4
- * @since 1.6
  */
 public class ADCallbackHandler implements CallbackHandler {
 
@@ -34,18 +32,18 @@ public class ADCallbackHandler implements CallbackHandler {
     }
 
     /**
-     * setUserId is used for setting the username.
+     * Set callback handler username
      *
-     * @param userid is the username being set.
+     * @param userid username being set.
      */
     public void setUserId(String userid) {
         ADUserId = userid;
     }
 
     /**
-     * setPassword is used for setting the password.
+     * Set callback handler password
      *
-     * @param password is the password being set.
+     * @param password password being set.
      */
     public void setPassword(String password) {
         ADPassword = new char[password.length()];

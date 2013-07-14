@@ -38,6 +38,8 @@ public class ADAuthenticator {
             ADCallbackHandler ch = new ADCallbackHandler();
             ch.setUserId(userName);
             ch.setPassword(password);
+            //NOTE: The context name will change depending on the name given
+            //      in the jaas configuration file
             LoginContext lc = new LoginContext("JaasConfig", ch);
             lc.login();
             return true;

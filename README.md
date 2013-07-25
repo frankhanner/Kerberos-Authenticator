@@ -10,7 +10,9 @@ on Kerberos and how this could be used instead. Although it did require a bit
 more work, I was able to successfully implement an authentication system using
 a Kerberos approach. This eliminated the need to use any sort of certificates, and made more sense since the only thing I needed to do was authenticate.
 
-NOTE: You will need to create a JAAS configuration file and place it in the
+**NOTE:**
+
+You will need to create a JAAS configuration file and place it in the
 classpath. To find out more about this config file please visit
 http://www.javaactivedirectory.com/?page_id=72
 

@@ -14,6 +14,7 @@ a Kerberos approach. This eliminated the need to use any sort of certificates, a
 
 You will need to create a JAAS configuration file and place it in the
 classpath. To find out more about this config file please visit
+
 http://www.javaactivedirectory.com/?page_id=72
 
 ###Usage
